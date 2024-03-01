@@ -1,0 +1,58 @@
+form {
+    display: inline-grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 20px;
+}
+
+input {
+    width: 110px;
+    height: 110px;
+    color: black;
+    border: none;
+    border-radius: 50%;
+    background: #e0e0e0;
+    box-shadow:  20px 20px 24px #c1c1c1,
+                 -20px -20px 24px #ffffff;
+    font-size: 3rem;
+
+}
+
+.temp {
+    text-align: center;
+    margin-top: 2%;
+}
+
+h1 {
+    font-family: "Pacifico", cursive;
+    font-weight: 400;
+    font-style: normal;
+}   
+h2 {
+    font-family: "Madimi One", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+
+.headings {
+    
+    color: slategrey;
+    margin-bottom: 80px;
+}
+
+#res{
+    font-size: 15px;
+}
+
+button{
+    font-family: "Pacifico", cursive;
+    padding: 20px;
+    border-radius: 20px;
+    border: none;
+    background: #e0e0e0;
+    box-shadow:  20px 20px 24px #c1c1c1,
+                 -20px -20px 24px #ffffff;
+                 grid-column: span 3;
+}
+
